@@ -1,6 +1,7 @@
 #include <iostream>
 #include<stdio.h>
 
+
 void add(int t[3],int t2[3]){
 	  int result[4],rest[4];
 	  int i;
@@ -44,10 +45,18 @@ int ban2int (){
 return 0;
 
 }
-int integertobinary (){
 
-    return 0;
+int *integertobinary (int a){
 
+    int i = 0,j=0,b[4],bin;
+    while(a !=0){
+        b[j]=a%2;
+        bin=a*i;
+        a=a/2;
+        i=i*10;
+        j++;}
+	return 0;
+   
 }
 
 int main(int argc, char** argv) {
