@@ -6,7 +6,13 @@ int add(int a,int b){
 }
 int ban2int (){
 
+
 return 0;
+
+}
+int integertobinary (){
+
+    return 0;
 
 }
 
